@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><!--编码-->
+    <title>璋爸爸的小学习心得</title>
+</head>
+<body>
+目前是文本操作
+<a href="https://www.5uvc.com">这里是有一个超链接，未成年人慎点</a>
+
+<br>
+<b>b:这是粗体</b><!--粗体-->
+<br>
+<em>em:这是斜体</em><!--斜体-->
+<br>
+<u>u:这是下划线</u>
+<br>
+<s>s:这是中分线</s>
+<br>
+<a>开始创建正规的表格</a>
+<table border="1px">
+    <tr>
+        <th>我这在tr里面使用了th关键字</th>
+        <th>th跟td功能差不多</th>
+        <th>但th有加粗和自动居中的功能</th>
+    </tr>
+    <tr>
+        <td>上面那行不算，所以我这才是第一行</td>
+        <td>这是第一行的第二个格子</td>
+        <td>这是第一行的第三个格子</td>
+    </tr>
+    <tr>
+        <td>tr:表示行</td>
+        <td>td:表示在tr里面的格子</td>
+        <td>所以我在第二行的tr中创建了三个td</td>
+    </tr>
+</table>
+<br>
+<a>开始创建非法的表格</a>
+<table border="2px">
+    <tr>
+        <th>aaaaa</th>
+        <th>aaaaa</th>
+        <th>aaaaa</th>
+        <th>aaaaa</th>
+    </tr>
+    <tr>
+        <td rowspan="2">利用rowspan="2"把上下两个格子给合并了</td>
+        <td colspan="2">利用colspan="2"把左右两个格子给合并了</td>
+        <td>aaaaa</td>
+    </tr>
+    <tr>
+        <td>aaaaa</td>
+        <td>aaaaa</td>
+        <td>aaaaa</td>
+    </tr>
+</table>
+现在开始创建列表
+<ol reversed>
+    <li>使用ol创建列表</li>
+    <li>用li表示ol里面的一行</li>
+    <li>使用reversed改为降序</li>
+</ol>
+<ol type="A" >
+    <li>可以在ol中再创建ol</li>
+    <ol type="a">
+        <li>使用ol创建列表</li>
+        <li>用li表示ol里面的一行</li>
+        <li>默认为升序</li>
+        <li>使用type可以更改数字或者字母</li>
+    </ol>
+    <li>使用type可以更改数字或者字母</li>
+    <li>默认为升序</li>
+</ol>
+<b>现在开始创造表单</b>
+<form>
+    <input><!--单行文本框-->
+    <input value="爷摊牌了，我说不明白">
+    <br>
+    <input placeholder="自己看看吧">
+    <input placeholder="这个你最大只能输入16个数字哦" maxlength="16">
+    <br>
+    <input placeholder="这个你感觉是不是变宽了，看的更舒服了" size="50">
+    <br>
+    <input value="你只能看着我，奈我不何" readonly>
+    <br>
+    <input type="password" placeholder="你输入的东西会保密哦">
+    <br>
+    <textarea rows="10" cols="20">这是一个类似与记事本的文本框，在不同的浏览器可以有不同的效果，你自己用肉眼看看吧,当然，我自己设置了10的rows和20的cols</textarea>
+    <br>
+    <input type="button" value="这是一个按钮">
+    <button>按钮哦</button>
+    <br>
+    <input type="submit" value="这是一个提交">
+    <br>
+    <input type="range" min="-50" max="50" step="10">
+    <input type="number" min="-50" max="50" value="0">
+    <br>
+    <input type="checkbox"> 这是一个选择
+    <br>
+    举个例子：谁是你们的老父亲
+    <br>
+    <input type="radio" name="a">我
+    <input type="radio" name="a">帅气的我
+    <input type="radio" name="a">非常帅气的我
+     <br>
+     好吧，我承认上面那题是一个难题，那让我们再来看看下面那题吧!
+    <br>
+    <b>你们爱你的老父亲吗？</b>
+    <select>
+        <option>这是一个选择</option>
+        <option>可惜只能选一个</option>
+        <option>好吧，那就只能选这个了！非常爱！</option>
+    </select>
+<input list="data" placeholder="这个你也可以自己写">
+    <datalist id="data">
+        <option>这是一个选择</option>
+        <option>可惜只能选一个</option>
+        <option>好吧，那就只能选这个了！非常爱！</option>
+    </datalist>
+    <br>
+    <input type="datetime-local">
+    <br>
+    <input type="color">
+    <br>
+    <input type="file" multiple>
+</form>
+<img src="shopp.jpg" width="600px" usemap="#map1">
+<map name="map1">
+
+
+</map>
+
+
+</body>
+</html>
